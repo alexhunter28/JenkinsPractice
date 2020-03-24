@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class PracticeController {
 
     @GetMapping
-    public String getHelloWord(){
+    public String getHelloWorld(){
         return "Hello World";
     }
 }
